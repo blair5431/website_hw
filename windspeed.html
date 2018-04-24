@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <title>Wind Speed</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    </head> 
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- First Row -->
+                <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <nav class="tables  navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="comparison.html">Comparisons</a></li>
+                            <li><a href="data.html">Data</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualization <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="temperature.html">Temperatue</a></li>
+                                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                                        <li><a href="humidity.html">Humidity</a></li>
+                                        <li><a href="windspeed.html">Wind Speed</a></li>
+                                     </ul>
+                            </li>                                                                           
+                        </ul>
+                     </nav>
+                </div>
+                </div>
+            </nav>
+
+            <main>
+            <!-- Third Row -->
+            <div class = "row">
+            <div class="col-md-8 col-xs-12">
+            <h2>Latitude vs Wind Speed</h2>
+                <a>
+                    <img src="graphs/Wind_Speed.png" alt "Wind Speed"> 
+                </a>
+                
+                <p> 
+                   Wind speed around the equator (0 degrees) was relatively low. Wind speed did not get higher than 15mph.
+                   However, at the time of data collection wind speed in the Southern hemisphere appeared to be higher
+                   than wind speed in the northern hemisphere.
+
+                </p>
+            </div>
+        
+                    <div class = "col-md-1"> </div>
+                    <div class = "col-md-4 col-xs-12">
+                            <!-- <h2>Visualization</h2> -->
+                            <TABLE class="tables box ">
+                            <TR>
+                                <TH COLSPAN="2">
+                                <H2><BR>Visualization</H2>
+                                </TH>
+                            </TR>
+                            <TR>
+                           <TD>
+                                <a  href="cloudiness.html">
+                                    <img src="graphs/cloudiness.png" alt "Cloudy Map" height="150" width="150"> 
+                                </a>
+                           </TD>
+        
+                           <TD>
+                                <a href="humidity.html">
+                                    <img src="graphs/humidity.png" alt "Humidity Map" height="150" width="150"> 
+                                </a>
+                           </TD>
+                            </TR>
+                            <TR>
+                           <TD>
+                                <a href="temperature.html">
+                                    <img src="graphs/temperature.png" alt "Temperature Map" height="150" width="150"> 
+                                </a>
+                           </TD>
+                           <TD>
+                                <a  href="windspeed.html">
+                                    <img src="graphs/wind_speed.png" alt "Wind Speed" height="150" width="150"> 
+                                </a>
+                           </TD>
+                           </TR>
+                            </TABLE>
+
+        </div>
+    </body>
